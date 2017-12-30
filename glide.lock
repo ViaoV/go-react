@@ -1,0 +1,127 @@
+hash: 2eab7bfddd7768a54e78a396387442bb876f32490021de0a228fbe4b0dabd91f
+updated: 2017-12-30T16:35:57.177669549-05:00
+imports:
+- name: github.com/codegangsta/cli
+  version: 347a9884a87374d000eec7e6445a34487c1f4a2b
+- name: github.com/dgrijalva/jwt-go
+  version: 2268707a8f0843315e2004ee4f1d021dc08baedf
+- name: github.com/dlclark/regexp2
+  version: 3f97b6a39134e6bd88a72d1388d1632e60d83ef6
+  subpackages:
+  - syntax
+- name: github.com/dop251/goja
+  version: 09718839f5255969d0dcaef99119b867d187ecea
+  subpackages:
+  - ast
+  - file
+  - parser
+  - token
+- name: github.com/dop251/goja_nodejs
+  version: 2fc1e6bbfc494e36dd9a0b3e735a4babc538f51f
+  subpackages:
+  - console
+  - eventloop
+  - require
+  - util
+- name: github.com/elazarl/go-bindata-assetfs
+  version: 9a6736ed45b44bf3835afeebb3034b57ed329f3e
+- name: github.com/fatih/structs
+  version: a720dfa8df582c51dee1b36feabb906bde1588bd
+- name: github.com/fsnotify/fsnotify
+  version: 4da3e2cfbabc9f751898f250b49f2439785783a1
+- name: github.com/hashicorp/hcl
+  version: 23c074d0eceb2b8a5bfdbb271ab780cde70f05a8
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/printer
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/itsjamie/go-bindata-templates
+  version: 65d795d0c74021e19b2ebadf3c83c01a8290a405
+- name: github.com/jteeuwen/go-bindata
+  version: a0ff2567cfb70903282db057e799fd826784d41d
+- name: github.com/labstack/echo
+  version: a8b6864be328fcb5c2d96d32c75b750f84e0e4be
+  subpackages:
+  - middleware
+- name: github.com/labstack/gommon
+  version: f72d3c883f8ea180da8f085dd320804c41332ad1
+  subpackages:
+  - bytes
+  - color
+  - log
+  - random
+- name: github.com/magiconair/properties
+  version: 49d762b9817ba1c2e9d0c69183c2b4a8b8f1d934
+- name: github.com/mattn/go-colorable
+  version: d228849504861217f796da67fae4f6e347643f15
+- name: github.com/mattn/go-isatty
+  version: 30a891c33c7cde7b02a981314b4228ec99380cca
+- name: github.com/mitchellh/mapstructure
+  version: 06020f85339e21b2478f756a78e295255ffa4d6a
+- name: github.com/nu7hatch/gouuid
+  version: 179d4d0c4d8d407a32af483c2354df1d2c91e6c3
+- name: github.com/olebedev/gojax
+  version: bb153be84336f26925890502929cc363477df7ad
+  subpackages:
+  - fetch
+  - fetch/internal/data
+- name: github.com/olebedev/on
+  version: f65b7c9823a4c30797e9ad3c51d559a36ff8d542
+- name: github.com/pelletier/go-toml
+  version: 0131db6d737cfbbfb678f8b7d92e55e27ce46224
+- name: github.com/pkg/errors
+  version: 248dadf4e9068a0b3e79f02ed0a610d935de5302
+- name: github.com/spf13/afero
+  version: 57afd63c68602b63ed976de00dd066ccb3c319db
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: acbeb36b902d72a7a4c18e8f3241075e7ab763e4
+- name: github.com/spf13/cobra
+  version: 7b2c5ac9fc04fc5efafb60700713d4fa609b777b
+- name: github.com/spf13/jwalterweatherman
+  version: 12bd96e66386c1960ab0f74ced1362f66f552f7b
+- name: github.com/spf13/pflag
+  version: 4c012f6dcd9546820e378d0bdda4d8fc772cdfea
+- name: github.com/spf13/viper
+  version: aafc9e6bc7b7bb53ddaa75a5ef49a17d6e654be5
+- name: github.com/valyala/bytebufferpool
+  version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
+- name: github.com/valyala/fasttemplate
+  version: d090d65668a286d9a180d43a19dfdc5dcad8fe88
+- name: golang.org/x/crypto
+  version: bed12803fa9663d7aa2c2346b0c634ad2dcd43b7
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/net
+  version: 41bba8d80bbfab43231ffdf4c210037baae5f6a3
+  subpackages:
+  - context
+  - context/ctxhttp
+- name: golang.org/x/sys
+  version: 7a6e5648d140666db5d920909e082ca00a87ba2c
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 44f4f658a783b0cee41fe0a23b8fc91d9c120558
+  subpackages:
+  - cases
+  - collate
+  - internal
+  - internal/colltab
+  - internal/tag
+  - language
+  - transform
+  - unicode/norm
+- name: gopkg.in/yaml.v2
+  version: 4c78c975fe7c825c6d1466c42be594d1d6f3aba6
+testImports: []

@@ -1,4 +1,4 @@
-import { applyMiddleware, createStore as reduxCreateStore } from 'redux';
+import { applyMiddleware, createStore as reduxCreateStore, compose } from 'redux';
 import { createLogger } from 'redux-logger';
 import reducers from './reducers';
 
@@ -11,11 +11,15 @@ if (process.env.NODE_ENV !== 'production') {
   } catch (e) {}
 }
 
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+
+
 export function createStore(state) {
   return reduxCreateStore(
     reducers,
     state,
-    applyMiddleware.apply(null, middlewares)
+    composeEnhancers(applyMiddleware.apply(null, middlewares)),
   );
 }
 

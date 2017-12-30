@@ -29,7 +29,7 @@ export default class Homepage extends Component {
         <br /></h1>
       <br />
       <p className={p}>
-        Please take a look at <Link className={link} to='/docs'>usage</Link> page.
+        Please take a look at <Link className={link} to='/docs'>api call</Link> page.
       </p>
     </div>;
   }

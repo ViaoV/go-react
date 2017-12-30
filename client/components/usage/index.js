@@ -23,10 +23,10 @@ class Usage extends Component {
   render() {
     return <div className={usage}>
       <Helmet title='Usage' />
-      <h2 className={example}>Usage:</h2>
+      <h2 className={example}>API CALL:</h2>
       <div className={p}>
         <span className={todo}>// TODO: write an article</span>
-        <pre className={todo}>config:
+        <pre className={todo}>response:
           {JSON.stringify(this.props.config, null, 2)}</pre>
       </div>
       <br />
